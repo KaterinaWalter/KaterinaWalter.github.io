@@ -1,52 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
+
 <head>
   <!--***METADATA***-->
   <title>coderina</title>
   <meta charset="utf-8">
   <meta name="author" content="Katerina Navab">
   <meta name="description" content="Website for Katerina Navab's Computer Science Courses">
-  <meta name="keywords" content="Navab, Katerina Navab, Computer Science, CS, AP, APCSA, APCS, High School, Upper School, BWL, Birch Wathen Lenox, NYC, New York City, New York">
+  <meta name="keywords"
+    content="Navab, Katerina Navab, Computer Science, CS, AP, APCSA, APCS, High School, Upper School, BWL, Birch Wathen Lenox, NYC, New York City, New York">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--***IMPORTS***-->
-  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💜</text></svg>">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <!--***SCRIPTS***-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💜</text></svg>">
+  <link href="/dist/output.css" rel="stylesheet">
 </head>
+
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <h1>Ms. Navab's Computer Science Courses</h1>
-      </div>
+  <div class="relative flex min-h-screen flex-col justify-center overflow-hidden">
+    <div class="navbar bg-base-100">
+      <a class="btn btn-ghost normal-case text-xl">coderina</a>
     </div>
-  </div>
-  <div class="container-fluid">
-    <ul class="nav flex-column">
-      <li class="nav-item"><a href="bwl_cs1_intro/index.html">💻[BWL CS1] Intro to Computer Science</a></li>
-      <li class="nav-item"><a href="bwl_cs2_ap/index.html">💿[BWL CS2] AP Computer Science A</a></li>
-      <li class="nav-item"><a href="bwl_cs3_honors/index.html">👾[BWL CS3] Honors Advanced Topics in CS</a></li>
-    </ul>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
+    <div class="relative px-6 pt-10 pb-8 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+      <ul class="menu bg-base-100 w-100 p-2 rounded-box">
+        <li class="menu-title">
+          <span>MS. NAVAB'S COMPUTER SCIENCE COURSES</span>
+        </li>
+        <li><a href="bwl_cs1_intro/index.html">💻[CS1] Intro to Computer Science </a></li>
+        <li><a href="bwl_cs2_ap/index.html">💿[CS2] AP Computer Science A</a></li>
+        <li><a href="bwl_cs3_honors/index.html">👾[CS3] Honors Computer Science</a></li>
+      </ul>
+    </div>
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+      <div class="grid grid-flow-col gap-4">
+        <a class="link link-hover link-primary" href="katerina/index.html">Portfolio&AboutMe</a>
+        <a class="link link-hover link-primary" href="https://www.linkedin.com/in/katerinanavab">LinkedIn</a>
+        <a class="link link-hover link-primary" href="https://github.com/katerinanavab">GitHub</a>
+      </div>
+      <div>
         <p>💜 Coded by Katerina Navab &copy2022 💜</p>
       </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <a href="katerina/index.html">Portfolio&AboutMe</a>
-      </div>
-      <div class="col">
-        <a href="https://www.linkedin.com/in/katerinanavab">LinkedIn</a>
-      </div>
-      <div class="col">
-        <a href="https://github.com/katerinanavab">GitHub</a>
-      </div>
-    </div>
+    </footer>
   </div>
 </body>
 </html>
