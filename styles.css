@@ -18,7 +18,6 @@ body {
 
 }
 
-h1,
 h2,
 h3 {
 	color: #a374d5;
@@ -35,16 +34,48 @@ hr {
 }
 
 /* MY CUSTOM CLASSES */
-.my-tagline {
+.my-name {
 	color: #a374d5;
-	font-family: 'Bebas Neue', Monospace;
+	font-family: 'Poppins', sans-serif;
+	font-size: 4rem;
 }
 
-.my-name {
-	font-size: 5rem;
+.my-tagline {
+	color: #ff75ea;
+	font-family: 'Bebas Neue', monospace;
 }
 
 .my-intro {
 	border-radius: 20px;
 	background: #131520;
 }
+
+/*
+.header-text-effect-wrapper {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+.header-text-effect {
+	color: #fff;
+	font-size: 10vw;
+	font-weight: 800;
+	letter-spacing: 0.2em;
+	line-height: 1.4;
+	padding: 0 0.25em;
+	text-shadow:
+		0.1vw 0.1vw #4F4F4F55,
+		0.1vw -0.1vw #4F4F4F55,
+		-0.1vw 0.1vw #4F4F4F55,
+		-0.1vw -0.1vw #4F4F4F55;
+}
+
+@supports ((-webkit-background-clip: text) and (-webkit-text-stroke: 3vw)) {
+	.header-text-effect {
+		background: linear-gradient(160deg, #ff75ea 0%, #fffbbe 60%, #a374d5 80%);
+		-webkit-background-clip: text;
+		-webkit-text-stroke: 3vw transparent;
+	}
+}
+*/
