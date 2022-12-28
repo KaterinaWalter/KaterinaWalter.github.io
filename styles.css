@@ -20,10 +20,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
 	color: #a374d5;
 }
 
@@ -40,7 +37,6 @@ hr {
 /* MY CUSTOM CLASSES */
 .my-tagline {
 	color: #a374d5;
-	font-size: 1rem;
 	font-family: 'Bebas Neue', Monospace;
 }
 
