@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-	<!--** PAGE METADATA **-->
+
+	<!--** METADATA **-->
 	<title>coderina</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
@@ -15,154 +16,268 @@
 	<meta name="keywords"
 		content="Navab, Katerina Navab, teacher, educator, Columbia University, New York City, New York">
 	<!--** LINKS **-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 	<link rel="icon"
 		href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#128156</text></svg>">
-	<link rel="stylesheet" href="styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 		rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<!--** SCRIPTS **-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/75877504c0.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body>
-	<div class="container-fluid p-4">
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50" data-bs-root-margin="0px 0px -40%"
+	data-bs-smooth-scroll="true">
 
+	<nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top px-2">
+		<div class="container-fluid">
+			<img src="https://assets.codepen.io/8417579/coderina_logo.png" alt="logo" width="50px">
+			<a class="navbar-brand mx-3 fancy" href="index.html">coderina</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link" href="#courses">Courses</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-		<header>
-			<div class="container-fluid p-2 text-center">
-				<div class="row">
-					<div class="col">
-						<img src="coderina_logo.png" alt="Coderina Logo" width="50px">
-					</div>
-				</div>
-				<div class="row p-2">
-					<div class="col header-text-effect-wrapper">
-						<h1 class="my-name header-text-effect"> KATERINA NAVAB </h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<h2 class="my-tagline">CODER & EDUCATOR</h2>
+	<header>
+		<div id="hero" class="container-fluid p-2 mt-4">
+			<div class="row p-2">
+				<div class="col">
+					<div id="glitter-wrap" class="container">
+						<!--
+						<i class="fa-solid fa-star glitter" id="glitter-1"></i>
+						<i class="fa-solid fa-star glitter" id="glitter-2"></i>
+						<i class="fa-solid fa-star glitter" id="glitter-3"></i>
+						<i class="fa-solid fa-star glitter" id="glitter-4"></i>
+-->
+						<h1 class="fancy text-center">katerina navab</h1>
 					</div>
 				</div>
 			</div>
-		</header>
-
-		<main>
-			<div class="container-fluid p-2">
-				<div class="row">
-					<div class="col p-2 my-intro">
-						<p>I am a coder 👩🏼‍💻, high school Computer Science teacher 👩🏼‍🏫, and a graduate student 👩🏼‍🎓.</p>
-						<p>My
-							bachelor's degree is in Chemical Engineering from Columbia University, and I am currently working towards
-							my masters in Educational Technology at Columbia University's Teachers College.</p>
-						<p>Some stuff about me... I
-							grew up in NYC, but my family is 🇬🇷Greek, 🇮🇷Iranian, and 🇬🇧British. Things I 💜 include cats, pasta
-							& the Yankees.</p>
-					</div>
+			<div class="row m-auto text-center">
+				<div class="col">
+					<h2 class="color-alt">CODER & EDUCATOR</h2>
 				</div>
 			</div>
-
-			<hr>
-
-			<div class="container-fluid p-2">
-				<div class="row">
-					<div class="col">
-						<h3>Courses I Teach</h3>
+			<div class="row m-auto text-center">
+				<div class="col-2">
+				</div>
+				<div class="col-8">
+					<div class="social-icons">
+						<span>
+							<a href="https://linkedin.com/in/katerinanavab">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</span>
+						<span>
+							<a href="https://github.com/katerinanavab">
+								<i class="fa fa-github"></i>
+							</a>
+						</span>
+						<span>
+							<a href="https://codepen.io/katerinanavab">
+								<i class="fa fa-codepen"></i>
+							</a>
+						</span>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md">
-						<h4>Web Design & Development</h4>
-						<span class="badge">HTML</span>
-						<span class="badge">CSS</span>
-						<span class="badge">JS</span>
-						<p><em>Description coming soon!</em></p>
-					</div>
-					<div class="col-md">
-						<h4>AP Computer Science A</h4>
-						<span class="badge">JAVA</span>
-						<p><em>Description coming soon!</em></p>
-					</div>
-					<div class="col-md">
-						<h4>Data Structures & Algorithms</h4>
-						<span class="badge">PYTHON</span>
-						<p><em>Description coming soon!</em></p>
-					</div>
+				<div class="col-2">
 				</div>
 			</div>
+		</div>
+	</header>
 
-			<hr>
-
-			<div class="container-fluid p-2">
-				<div class="row">
-					<div class="col">
-						<h3>Portfolio</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="gOeRmjw" data-user="skf2120"
-							style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-							<span>See the Pen <a href="https://codepen.io/skf2120/pen/gOeRmjw">
-									Vue.js Emoji Zoo v2</a> by Katerina Navab (<a href="https://codepen.io/skf2120">@skf2120</a>)
-								on <a href="https://codepen.io">CodePen</a>.</span>
-						</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</div>
-					<div class="col">
-						<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="qBoRyGW" data-user="skf2120"
-							style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-							<span>See the Pen <a href="https://codepen.io/skf2120/pen/qBoRyGW">
-									Vue.js Simulation: Mindset Trainer</a> by Katerina Navab (<a
-									href="https://codepen.io/skf2120">@skf2120</a>)
-								on <a href="https://codepen.io">CodePen</a>.</span>
-						</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</div>
-					<div class="col">
-						<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="zYWmaMV" data-user="skf2120"
-							style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-							<span>See the Pen <a href="https://codepen.io/skf2120/pen/zYWmaMV">
-									Poké Type Matchup v5 (Vue.js)</a> by Katerina Navab (<a
-									href="https://codepen.io/skf2120">@skf2120</a>)
-								on <a href="https://codepen.io">CodePen</a>.</span>
-						</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-					</div>
+	<main>
+		<div id="bio" class="container m-auto p-2">
+			<div class="row bg-dark rounded">
+				<div class="col">
+					<p>I am a coder 👩🏼‍💻, high school Computer Science teacher 👩🏼‍🏫, and a graduate student 👩🏼‍🎓 based in
+						New York City 🗽.</p>
+					<p>My bachelor's degree is in Chemical Engineering from Columbia University, and I am currently working
+						towards my masters in Educational Technology at Columbia University's Teachers College.</p>
+					<p>Some stuff about me... I grew up in NYC, but my family is 🇬🇷Greek, 🇮🇷Iranian, and 🇬🇧British. Things I
+						💜 include cats, pasta & the Yankees.</p>
 				</div>
 			</div>
-		</main>
+		</div>
 
-		<footer>
-			<div class="container-fluid p-1 text-center">
-				<div class="row">
-					<div class="col">
-						<p>Coded with 💜 by Katerina Navab &copy2022</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<a href="https://github.com/katerinanavab">GitHub</a>
-					</div>
-					<div class="col">
-						<a href="https://www.linkedin.com/in/katerinanavab">LinkedIn</a>
-					</div>
+		<hr>
+
+		<div id="courses" class="container-fluid p-2">
+			<div class="row">
+				<div class="col">
+					<h2 class="text-white">👩🏼‍🏫 CS Courses I Teach</h2>
 				</div>
 			</div>
-		</footer>
+			<div class="row">
+				<div class="col-4">
+					<h3 class="color-alt">Web Design & Development</h3>
+					<span class="badge">HTML</span>
+					<span class="badge">CSS</span>
+					<span class="badge">JS</span>
+					<p><em>The goal of the Introduction to Computer Science course is to build a foundation in computational
+							thinking and programming skills through the lens of Web Design & Development. We’ll review basic web
+							design with HTML and CSS before developing interactive websites, applications, and games using JavaScript.
+							In the process, students will expand their creativity, thoughtfulness, and problem-solving abilities.</em>
+					</p>
+				</div>
+				<div class="col-4">
+					<h3 class="color-alt">Object-Oriented Programming (AP CSA)</h3>
+					<span class="badge">JAVA</span>
+					<p><em>This course follows the College Board Advanced Placement curriculum for “AP Computer Science A.” The
+							goal of the course is to design, analyze, and implement solutions to a wide array of problems. Students
+							are introduced to the Java programming language as a means of accomplishing this goal. The technical focus
+							of the course is Object-Oriented Programming (OOP) design and implementation. All students are expected to
+							take the AP Computer Science A examination in May.</em></p>
+				</div>
+				<div class="col-4">
+					<h3 class="color-alt">Data Structures & Algorithms</h3>
+					<span class="badge">PYTHON</span>
+					<p><em>The Post-AP Advanced Topics in Computer Science course offers highly motivated students the opportunity
+							to expand on topics covered in the Introductory and AP courses. New data structures, and new algorithms
+							using those data structures, will be explored in detail. Subjects of study include sorting and searching,
+							algorithm analysis with stacks, queues, and linked lists, recursion, trees, and graphs. Development of
+							these theoretical topics is reinforced by projects that are coded on computers using both Java and Python
+							programming languages.</em></p>
+				</div>
+			</div>
+		</div>
 
-	</div>
+		<hr>
 
-	<!--** SCRIPTS **-->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-		crossorigin="anonymous"></script>
+		<div id="portfolio" class="container-fluid p-2">
+			<div class="row">
+				<div class="col">
+					<h2 class="text-white">👩🏼‍💻 Coding Project Portfolio</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 p-2">
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="poZbRzG"
+						data-user="katerinanavab"
+						style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/katerinanavab/pen/poZbRzG">
+								🐘 Emoji Zoo (Vue.js)</a> by Katerina Navab (<a
+								href="https://codepen.io/katerinanavab">@katerinanavab</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</div>
+				<div class="col-6 p-2">
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="VwBjmom"
+						data-user="katerinanavab"
+						style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/katerinanavab/pen/VwBjmom">
+								🧠 Mindset Trainer (Vue.js)</a> by Katerina Navab (<a
+								href="https://codepen.io/katerinanavab">@katerinanavab</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 p-2">
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="vYaKgYm"
+						data-user="katerinanavab"
+						style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/katerinanavab/pen/vYaKgYm">
+								WIP 🐾 Pet Landing Page</a> by Katerina Navab (<a
+								href="https://codepen.io/katerinanavab">@katerinanavab</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</div>
+				<div class="col-6 p-2">
+					<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="gOjMgbX"
+						data-user="katerinanavab"
+						style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+						<span>See the Pen <a href="https://codepen.io/katerinanavab/pen/gOjMgbX">
+								WIP 🎮 Poké Type Match (Vue.js)</a> by Katerina Navab (<a
+								href="https://codepen.io/katerinanavab">@katerinanavab</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+					</p>
+					<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<div id="contact" class="container-fluid p-2">
+			<div class="row">
+				<div class="col">
+					<h2 class="text-white">✉️ Contact Me!</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col p-5">
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer>
+
+		<div class="container-fluid pt-4 mt-2 bg-dark text-center">
+			<div class="row">
+				<div class="col">
+					<p class="footer-text">Coded with 💜 by Katerina Navab &copy2022</s>
+				</div>
+			</div>
+			<div class="row m-auto">
+				<div class="col-2">
+				</div>
+				<div class="col-8">
+					<div class="social-icons">
+						<span>
+							<a href="https://www.linkedin.com/in/katerinanavab">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</span>
+						<span>
+							<a href="https://github.com/katerinanavab">
+								<i class="fa fa-github"></i>
+							</a>
+						</span>
+						<span>
+							<a href="https://codepen.io/katerinanavab">
+								<i class="fa fa-codepen"></i>
+							</a>
+						</span>
+					</div>
+				</div>
+				<div class="col-2">
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
 </body>
 
 </html>
