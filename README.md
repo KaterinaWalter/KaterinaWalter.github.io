@@ -1,2 +1,3 @@
 # katerinanavab.github.io
-### Personal Website by Katerina Navab 💜
+### Personal Website by Katerina Walter 💜
+(formerly Katerina Navab)
