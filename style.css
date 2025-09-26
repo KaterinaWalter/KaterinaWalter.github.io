@@ -41,13 +41,13 @@ h1.fancy {
 }
 
 .color-alt {
-	color: rgb(177, 159, 255);
+	color: rgb(177, 159, 255) !important;
 }
 
 .color-alt-bold {
 	color: rgb(177, 159, 255);
 	font-weight: bold;
-	text-shadow: #212529 2px 2px 0px;
+	text-shadow: 2px 2px 0px #212529;
 }
 
 a.nav-link {
