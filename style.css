@@ -44,6 +44,12 @@ h1.fancy {
 	color: rgb(177, 159, 255);
 }
 
+.color-alt-bold {
+	color: rgb(177, 159, 255);
+	font-weight: bold;
+	text-shadow: #212529 2px 2px 0px;
+}
+
 a.nav-link {
 	font-family: "Poppins", sans-serif;
 	font-weight: 800;
