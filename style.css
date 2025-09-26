@@ -31,6 +31,19 @@ body {
 	/* needed for scrollspy? */
 }
 
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+ul li:before {
+	content: "✦";
+	color: rgb(177, 159, 255) !important;
+	position: absolute;
+	left: 0;
+}
+
 .fancy {
 	font-family: "Croissant One", cursive;
 	color: rgb(236, 161, 254) !important;
