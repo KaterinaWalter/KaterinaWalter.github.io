@@ -22,10 +22,9 @@ body {
 		rgb(63, 76, 119) 70.2%
 	);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 10s ease infinite;
 	height: 300vh;
 	position: relative;
-	/* needed for scrollspy? */
 }
 
 ul.custom-list {
