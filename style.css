@@ -16,12 +16,14 @@ html {
 body {
 	padding-top: 60px;
 	width: 100%;
-	background: linear-gradient(112.1deg,
-			rgb(32, 38, 57) 11.4%,
-			rgb(63, 76, 119) 70.2%);
+	background: linear-gradient(
+		112.1deg,
+		rgb(32, 38, 57) 11.4%,
+		rgb(63, 76, 119) 70.2%
+	);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+	height: 300vh;
 	position: relative;
 	/* needed for scrollspy? */
 }
@@ -100,10 +102,12 @@ hr {
 }
 
 .bg-purple-gradient {
-	background-color: linear-gradient(-225deg,
-			rgb(82, 113, 196) 0%,
-			rgb(177, 159, 255) 48%,
-			rgb(236, 161, 254) 100%);
+	background-color: linear-gradient(
+		-225deg,
+		rgb(82, 113, 196) 0%,
+		rgb(177, 159, 255) 48%,
+		rgb(236, 161, 254) 100%
+	);
 }
 
 .active {
@@ -155,10 +159,12 @@ social-icons {
 	height: 60px;
 	border-radius: 100%;
 	display: block;
-	background: linear-gradient(-225deg,
-			rgb(82, 113, 196) 0%,
-			rgb(177, 159, 255) 48%,
-			rgb(236, 161, 254) 100%);
+	background: linear-gradient(
+		-225deg,
+		rgb(82, 113, 196) 0%,
+		rgb(177, 159, 255) 48%,
+		rgb(236, 161, 254) 100%
+	);
 
 	transition: all 265ms ease-out;
 }
@@ -173,10 +179,12 @@ social-icons {
 	-ms-transform: scale(2.2);
 	-webkit-transform: scale(2.2);
 	color: rgb(177, 159, 255);
-	background: -webkit-linear-gradient(-225deg,
-			rgb(82, 113, 196) 0%,
-			rgb(177, 159, 255) 48%,
-			rgb(236, 161, 254) 100%);
+	background: -webkit-linear-gradient(
+		-225deg,
+		rgb(82, 113, 196) 0%,
+		rgb(177, 159, 255) 48%,
+		rgb(236, 161, 254) 100%
+	);
 
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
